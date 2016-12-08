@@ -1,0 +1,29 @@
+Trys to find the smallest set of fragments necessary to cover a
+molecule using a greedy algorithm.
+
+Prereqs:
+
+RDKit : github.com/rdkit/rdkit
+
+Run like this:
+
+python is_feasible_mol.py -f fragments.csv molecules.csv mapped_molecules.csv
+
+The mappings are stored in mapped_molecules.csv.
+
+The following PDF reports are generated as well:
+
+Success.pdf - Molecules that could be successfully mapped and the
+fragments they match against
+
+MappingNotFound.pdf - Molecules that are completely covered by the
+fragments, but a non-overlapping mapping could not be found (for
+example, two rings would be required to be fused together)
+
+NotFullyCovered.pdf - Molecules that have atom topologies completely
+missing from the fragment set, the missing portion is highlighted in
+red.
+
+TimeLimitExceeded.pdf - Molecules that exceeded the 10 second search
+limit (haven't seen this occur recently since major tweaks and
+optimizations to the algorithm).
