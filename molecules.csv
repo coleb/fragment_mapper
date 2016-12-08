@@ -1,0 +1,14 @@
+SMILES,TITLE
+c1ccccc1-c1ccncc1,Covered
+c1ccccc1Cc1ccncc1,Covered
+c1ccccc1CCc1ccncc1,Covered
+c1ccccc1CCCc1ccncc1,Covered
+c1ccccc1CCCCc1ccncc1,Covered
+c1ccccc1CCCCCc1ccncc1,Covered
+c1ccccc1CCCCCCc1ccncc1,Covered
+c1ccccc1CCCCCCCc1ccncc1,Covered
+c1ccccc1CCCCCCCCc1ccncc1,Covered
+c1ccccc1CCCNCCCCc1ccncc1,Covered
+c1ccccc1CCCCOCCCc1ccncc1,Covered
+c1ccccc1CCc1cnccn1,NotFullyCovered
+c1ccc2ccccc2c1,NaphthaleneNoPossibleMapping
